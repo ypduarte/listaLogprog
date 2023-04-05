@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+</head>
+<style> 
+    body{
+        background-color: rgb(197, 41, 41);
+        color: rgb(201, 177, 177);
+        font: normal 20pt Arial;
+    }
+    h1{ color: aliceblue;
+
+    }
+
+    </style>
+
+<body>
+    <h1> Exercício 04</h1>
+    <script>
+        var nome = window.prompt('Digite o nome do vendedor: ');
+
+        var sal = Number.parseFloat(window.prompt ('Digite seu salário: '));
+
+        var Vendas = Number.parseFloat(window.prompt ('Digite seu vendas: '));
+
+        var comissao = Vendas * 0.15
+
+        var sal2 = comissao + sal;
+
+       alert(`${sal2} Reais`);
+
+        document.write(` ${nome} ${sal2} Reais`);
+    </script>
+</body>
+</html>
